@@ -1,0 +1,14 @@
+/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.deps.json
+/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
+/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/ref/TestApp.dll
+/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.pdb
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.csprojAssemblyReference.cache
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.csproj.CoreCompileInputs.cache
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.AssemblyInfoInputs.cache
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.AssemblyInfo.cs
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.dll
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/ref/TestApp.dll
+/Users/chris.tyner/Projects/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.pdb

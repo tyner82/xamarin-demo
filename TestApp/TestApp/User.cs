@@ -48,13 +48,16 @@ namespace TestApp
                     userList.Add(user);
                     //Console.WriteLine(userList[userList.Count - 1].eye_color);
                 }
+
+                isLoaded = true;
+                isLoading = false;
             }
             catch
             {
                 isLoaded = false;
+                isLoading = false;
                 Console.WriteLine("error in http");
             }
-            isLoaded = true;
         }
     }
 }

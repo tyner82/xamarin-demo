@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<forms:ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="http://xamarin.com/schemas/2014/forms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             xmlns:local="clr-namespace:TestApp;assembly=TestApp"
              mc:Ignorable="d"
              Padding="10"
              x:Class="TestApp.MainPage">
@@ -14,12 +16,23 @@
                 <ListView x:Name="listUsers">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <StackLayout x:Name="fieldStack">
-                                    <Label Text="{Binding name}"/>
-                                    <Label Text="{Binding eyeColor}"/>
-                                </StackLayout>
-                            </ViewCell>
+                            
+                            <StackLayout><!--this is source, gets from target?-->
+                                <Label x:Name="test" Text="{Binding name}"/><!--
+                                <Label Text="{Binding birth_year}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding eye_color}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding gender}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding hair_color}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding height}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding homeworld}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding mass}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding skin_color}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding created}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding edited}" IsVisible="{Binding birthYear}"/>
+                                <Label Text="{Binding url}" IsVisible="{Binding birthYear}"/>
+                                -->
+                            </StackLayout>
+                            <!--<local:ContactView Name="{Binding Name}"/>-->
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
@@ -52,4 +65,4 @@
         </Grid>
     </StackLayout>
     
-</forms:ContentPage>
+</ContentPage>

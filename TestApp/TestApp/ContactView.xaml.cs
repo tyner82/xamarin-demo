@@ -13,7 +13,7 @@ namespace TestApp
     public partial class ContactView : ViewCell
     {
         public static readonly BindableProperty NameProperty =
-          BindableProperty.Create("ContactCard", typeof(string), typeof(ContactView), "");
+          BindableProperty.Create("ContactCard", typeof(string), typeof(ContactView), "Contact");
 
         public string Name
         {
@@ -23,7 +23,10 @@ namespace TestApp
 
         public ContactView()
         {
+
+            Name = "test";
             InitializeComponent();
+            //test.Text = MainPage.fetcher.userList.Count>0?MainPage.fetcher.userList[0].name:"";
         }
     }
 }

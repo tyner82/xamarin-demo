@@ -12,6 +12,7 @@ namespace TestApp
 
 
         // https://swapi.co/api/people/
+        //[PrimaryKey, AutoIncrement]
         //public int id { get; set; }
         public string birth_year { get; set; }
         public string eye_color { get; set; }
@@ -48,11 +49,12 @@ namespace TestApp
         {
             Console.WriteLine("GetUsers");
             var httpClient = new HttpClient();
-            try
+            /*try
             {
+                isLoading = true;
+
                 foreach (int idx in _idArray)
                 {
-                    isLoading = true;
                     string response = await httpClient.GetStringAsync("https://swapi.co/api/people/" + idx);
                     User user = JsonConvert.DeserializeObject<User>(response);
                     userList.Add(user);
@@ -63,7 +65,7 @@ namespace TestApp
                 NotifyPropertyChanged();
             }
             catch (Exception e)
-            {
+            {*/
                 userList.Add(new User
                 {
                     birth_year = "1982",
@@ -86,9 +88,12 @@ namespace TestApp
                 isLoaded = true;
                 NotifyPropertyChanged();
                 isLoading = false;
-                Console.WriteLine($"error in http: {e}");
+                //Console.WriteLine($"error in http: {e}");
                 Console.WriteLine($"Count of list: {userList.Count}");
-            }
+            //}
+
+            NotifyPropertyChanged();
+            Console.WriteLine("out of fetcher");
         }
     }
 }

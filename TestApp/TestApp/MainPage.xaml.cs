@@ -14,7 +14,6 @@ namespace TestApp
     public partial class MainPage : ContentPage
     {
         int[] _apiHelperArray;
-
         public MainPage()
         {
             InitializeComponent();
@@ -24,6 +23,7 @@ namespace TestApp
             UserFetcher fetcher = new UserFetcher();
             fetcher.GetUsers(new int[] { 1, 2, 3, 4, 5 });
             listUsers.ItemsSource = fetcher.userList;
+            
         }
 
         void OnCheckHandler(object sender, CheckedChangedEventArgs e)

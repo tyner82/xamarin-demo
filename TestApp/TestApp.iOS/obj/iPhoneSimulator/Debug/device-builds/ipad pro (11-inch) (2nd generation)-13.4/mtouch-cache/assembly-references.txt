@@ -24,4 +24,3 @@
 /Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
 /Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-/Users/chris.tyner/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll

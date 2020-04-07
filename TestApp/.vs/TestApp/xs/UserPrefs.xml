@@ -1,17 +1,19 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BFD64395-4E8F-4C48-9109-499D8922AD24}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/User.cs">
     <Files>
-      <File FileName="TestApp/MainPage.xaml" Line="27" Column="22" />
+      <File FileName="TestApp/MainPage.xaml" Line="21" Column="73" />
       <File FileName="TestApp/MainPage.xaml.cs" />
-      <File FileName="TestApp.iOS/Main.cs" />
-      <File FileName="TestApp/User.cs" />
+      <File FileName="TestApp/User.cs" Line="1" Column="1" />
       <File FileName="TestApp/VisibleFieldsCode.cs" />
+      <File FileName="TestApp.iOS/Main.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestApp" expanded="True">
             <Node name="TestApp" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ContactView.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="User.cs" selected="True" />
             </Node>

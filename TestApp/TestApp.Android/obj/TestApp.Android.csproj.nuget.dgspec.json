@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj": {}
+    "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj": {
+    "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj",
+        "projectUniqueName": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj",
         "projectName": "TestApp.Android",
-        "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj",
+        "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj",
         "packagesPath": "/Users/chris.tyner/.nuget/packages/",
-        "outputPath": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/obj/",
+        "outputPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj": {
-                "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj"
+              "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj": {
+                "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj"
               }
             }
           }
@@ -48,14 +48,14 @@
         }
       }
     },
-    "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj": {
+    "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj",
+        "projectUniqueName": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj",
         "projectName": "TestApp",
-        "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj",
+        "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj",
         "packagesPath": "/Users/chris.tyner/.nuget/packages/",
-        "outputPath": "/Users/chris.tyner/Projects/TestApp/TestApp/obj/",
+        "outputPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chris.tyner/.config/NuGet/NuGet.Config"

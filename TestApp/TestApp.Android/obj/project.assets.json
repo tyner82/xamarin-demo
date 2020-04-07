@@ -1980,11 +1980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj",
+      "projectUniqueName": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj",
       "projectName": "TestApp.Android",
-      "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/TestApp.Android.csproj",
+      "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/TestApp.Android.csproj",
       "packagesPath": "/Users/chris.tyner/.nuget/packages/",
-      "outputPath": "/Users/chris.tyner/Projects/TestApp/TestApp.Android/obj/",
+      "outputPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1999,8 +1999,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj": {
-              "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj"
+            "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj": {
+              "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj"
             }
           }
         }

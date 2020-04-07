@@ -1094,11 +1094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chris.tyner/Projects/TestApp/TestApp.iOS/TestApp.iOS.csproj",
+      "projectUniqueName": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/TestApp.iOS.csproj",
       "projectName": "TestApp.iOS",
-      "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp.iOS/TestApp.iOS.csproj",
+      "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/TestApp.iOS.csproj",
       "packagesPath": "/Users/chris.tyner/.nuget/packages/",
-      "outputPath": "/Users/chris.tyner/Projects/TestApp/TestApp.iOS/obj/",
+      "outputPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1113,8 +1113,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj": {
-              "projectPath": "/Users/chris.tyner/Projects/TestApp/TestApp/TestApp.csproj"
+            "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj": {
+              "projectPath": "/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/TestApp.csproj"
             }
           }
         }

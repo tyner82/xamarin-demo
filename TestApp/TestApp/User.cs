@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+
+using System.Net.Http;
+using Newtonsoft.Json;
+
 namespace TestApp
 {
     public class User
@@ -21,5 +26,35 @@ namespace TestApp
         public string[] starships { get; set; }
         public string url { get; set; }
         public string[] vehicles { get; set; }
+    }
+
+    public class UserFetcher    {
+        public List<User> userList = new List<User>();
+        static int[] _idArray = new int[] { 1, 2, 3, 4, 5};
+        public bool isLoading = false;
+        public bool isLoaded = false;
+
+        public async void GetUsers()
+        {
+            Console.WriteLine("GetUsers");
+            var httpClient = new HttpClient();
+            try
+            {
+                foreach (int idx in _idArray)
+                {
+                    isLoading = true;
+                    string response = await httpClient.GetStringAsync("https://swapi.co/api/people/" + idx);
+                    User user = JsonConvert.DeserializeObject<User>(response);
+                    userList.Add(user);
+                    //Console.WriteLine(userList[userList.Count - 1].eye_color);
+                }
+            }
+            catch
+            {
+                isLoaded = false;
+                Console.WriteLine("error in http");
+            }
+            isLoaded = true;
+        }
     }
 }

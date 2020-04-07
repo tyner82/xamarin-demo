@@ -1,26 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<forms:ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="http://xamarin.com/schemas/2014/forms"
              mc:Ignorable="d"
              Padding="10"
              x:Class="TestApp.MainPage">
     <StackLayout>
-        <!-- Place new controls here -->
-        <!--<Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />-->
-        <ListView x:Name="listUsers">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding name}"/>
-                            <Label Text="{Binding gender}"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
+        <ScrollView>
+            <StackLayout>
+            <!-- Place new controls here -->
+                <!--<Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />-->
+                <ListView x:Name="listUsers">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout x:Name="fieldStack">
+                                    <Label Text="{Binding name}"/>
+                                    <Label Text="{Binding eyeColor}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        <Grid MinimumHeightRequest="1000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="eyeColour" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="0"/><Label Text="Eye Colour" Grid.Row="0" Grid.Column="1"/>
+            <CheckBox x:Name="birthYear" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="0"/><Label Text="Birth Year" Grid.Row="1" Grid.Column="1"/>
+            <CheckBox x:Name="gender" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="2"/><Label Text="Gender" Grid.Row="0" Grid.Column="3"/>
+            <CheckBox x:Name="hairColour" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="2"/><Label Text="Hair Colour" Grid.Row="1" Grid.Column="3"/>
+            <CheckBox x:Name="height" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="4"/><Label Text="Height" Grid.Row="0" Grid.Column="5"/>
+            <CheckBox x:Name="homeWorld" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="4"/><Label Text="Home World" Grid.Row="1" Grid.Column="5"/>
+            <CheckBox x:Name="created" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="6"/><Label Text="Created" Grid.Row="0" Grid.Column="7"/>
+            <CheckBox x:Name="skinColour" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="6"/><Label Text="Skin Colour" Grid.Row="1" Grid.Column="7"/>
+        </Grid>
     </StackLayout>
-</ContentPage>
+    
+</forms:ContentPage>

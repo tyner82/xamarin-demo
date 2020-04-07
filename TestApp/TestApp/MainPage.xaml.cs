@@ -5,8 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using System.Net.Http;
-using Newtonsoft.Json;
 
 namespace TestApp
 {
@@ -21,22 +19,14 @@ namespace TestApp
 
             Title = "ListView Code Demo";
             Padding = 10;
-            int[] ids = new int[] { 1 ,2};
-            Users(ids);
+            UserFetcher fetcher = new UserFetcher();
+            fetcher.GetUsers();
+            listUsers.ItemsSource = fetcher.userList;
         }
-        public async void Users(int[] ids)
-        {
-            var httpClient = new HttpClient();
-            List<User> userList = new List<User>();
-            foreach (int idx in ids)
-            {
-                var response = await httpClient.GetStringAsync("https://swapi.co/api/people/" + idx);
-                var user = JsonConvert.DeserializeObject<User>(response);
-                userList.Add(user);
-                Console.WriteLine(userList[userList.Count-1].eye_color);
-            }
-            listUsers.ItemsSource = userList;
 
+        public void OnCheckHandler(object sender, CheckedChangedEventArgs e)
+        {
+            Console.WriteLine(e.Value);
         }
 
     }

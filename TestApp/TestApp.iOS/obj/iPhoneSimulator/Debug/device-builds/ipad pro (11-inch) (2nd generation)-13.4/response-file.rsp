@@ -1,5 +1,5 @@
-"--cache=/Users/chris.tyner/Projects/TestApp/TestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/mtouch-cache"
-"--sim=/Users/chris.tyner/Projects/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/TestApp.iOS.app"
+"--cache=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/mtouch-cache"
+"--sim=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/TestApp.iOS.app"
 --executable=TestApp.iOS
  --debug
  --sgen-conc
@@ -10,7 +10,7 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
-"--symbollist=/Users/chris.tyner/Projects/TestApp/TestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/mtouch-symbols.list"
+"--symbollist=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad pro (11-inch) (2nd generation)-13.4/mtouch-symbols.list"
  --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -19,7 +19,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
--r=/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
+-r=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll
@@ -204,6 +204,6 @@
 -r=/Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
+-r=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/chris.tyner/Projects/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/TestApp.iOS.exe
+--root-assembly=/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/TestApp.iOS.exe

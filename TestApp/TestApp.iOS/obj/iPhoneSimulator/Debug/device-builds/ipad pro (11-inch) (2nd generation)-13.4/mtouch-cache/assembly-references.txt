@@ -1,4 +1,4 @@
-/Users/chris.tyner/Projects/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/TestApp.iOS.exe
+/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp.iOS/bin/iPhoneSimulator/Debug/TestApp.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.16.0.11/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.16.0.11/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.16.0.11/lib/mono/Xamarin.iOS/System.dll
@@ -22,6 +22,6 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.16.0.11/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.16.0.11/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/chris.tyner/Projects/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
+/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/bin/Debug/netstandard2.0/TestApp.dll
 /Users/chris.tyner/.nuget/packages/xamarin.forms/4.4.0.991265/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/chris.tyner/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll

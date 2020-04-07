@@ -1,25 +1,22 @@
-﻿<Properties StartupConfiguration="{BFD64395-4E8F-4C48-9109-499D8922AD24}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/MainPage.xaml">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BFD64395-4E8F-4C48-9109-499D8922AD24}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TestApp/MainPage.xaml" Line="19" Column="39" />
-      <File FileName="TestApp/MainPage.xaml.cs" Line="44" Column="1" />
-      <File FileName="TestApp/Constants.cs" Line="18" Column="1" />
-      <File FileName="TestApp/Users.cs" Line="23" Column="24" />
+      <File FileName="TestApp/MainPage.xaml" Line="27" Column="22" />
+      <File FileName="TestApp/MainPage.xaml.cs" Line="23" Column="32" />
       <File FileName="TestApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="TestApp/User.cs" Line="45" Column="1" />
+      <File FileName="TestApp/VisibleFieldsCode.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestApp" expanded="True">
             <Node name="TestApp" expanded="True">
-              <Node name="MainPage.xaml" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="User.cs" selected="True" />
             </Node>
+            <Node name="TestApp.iOS" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>userList</Value>
         </State>
       </Pad>
     </Pads>

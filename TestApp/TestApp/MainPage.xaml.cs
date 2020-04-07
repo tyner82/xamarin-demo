@@ -13,6 +13,8 @@ namespace TestApp
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        int[] _apiHelperArray;
+
         public MainPage()
         {
             InitializeComponent();
@@ -20,13 +22,14 @@ namespace TestApp
             Title = "ListView Code Demo";
             Padding = 10;
             UserFetcher fetcher = new UserFetcher();
-            fetcher.GetUsers();
+            fetcher.GetUsers(new int[] { 1, 2, 3, 4, 5 });
             listUsers.ItemsSource = fetcher.userList;
         }
 
-        public void OnCheckHandler(object sender, CheckedChangedEventArgs e)
+        void OnCheckHandler(object sender, CheckedChangedEventArgs e)
         {
-            Console.WriteLine(e.Value);
+            CheckBox checkie = (CheckBox)sender;
+            Console.WriteLine(((CheckBox)sender).AutomationId);
         }
 
     }

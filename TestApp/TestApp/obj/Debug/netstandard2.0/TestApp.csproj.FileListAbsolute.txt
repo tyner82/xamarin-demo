@@ -26,3 +26,4 @@
 /Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/obj/Debug/netstandard2.0/ref/TestApp.dll
 /Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.pdb
 /Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/obj/Debug/netstandard2.0/TestApp.csprojAssemblyReference.cache
+/Users/chris.tyner/Projects/xamarin-demo-vcs/TestApp/TestApp/obj/Debug/netstandard2.0/ContactView.xaml.g.cs

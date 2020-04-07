@@ -1,26 +1,15 @@
-﻿/*using System;
+﻿using System;
 using Xamarin.Forms;
 
 namespace TestApp
 {
-    public class VisibleFieldsCode
-    {
+    class buildLabels {
+        //fieldStack.Children.Add(new Label{Text = "{Binding birth_year}", isVisible="{Binding visibility}"})
+    }
+}
 
-        Style visibleField = new Style(typeof(Label))
-        {
-            Setters = {
-              new Setter { Property = Label.IsEnabledProperty, Value = true }
-            }
-        };
-        Style inVisibleField = new Style(typeof(Label))
-        {
-            Setters = {
-              new Setter { Property = Label.IsEnabledProperty, Value = false }
-            }
-        };
 
-        MainPage.fieldStack.Children.Add(new Label{Text = "{Binding birth_year}", Style = inVisibleField})
-public string eye_color { get; set; }
+/*public string eye_color { get; set; }
 public string[] films { get; set; }
 public string gender { get; set; }
 public string hair_color { get; set; }

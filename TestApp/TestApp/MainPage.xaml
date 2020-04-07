@@ -25,6 +25,7 @@
                 </ListView>
             </StackLayout>
         </ScrollView>
+        <Entry Text="How many Entries to load?"/>
         <Grid MinimumHeightRequest="1000">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -40,7 +41,7 @@
                 <ColumnDefinition Width="50"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <CheckBox x:Name="eyeColour" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="0"/><Label Text="Eye Colour" Grid.Row="0" Grid.Column="1"/>
+            <CheckBox AutomationId="eyeColour" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="0"/><Label Text="Eye Colour" Grid.Row="0" Grid.Column="1"/>
             <CheckBox x:Name="birthYear" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="0"/><Label Text="Birth Year" Grid.Row="1" Grid.Column="1"/>
             <CheckBox x:Name="gender" CheckedChanged="OnCheckHandler" Grid.Row="0" Grid.Column="2"/><Label Text="Gender" Grid.Row="0" Grid.Column="3"/>
             <CheckBox x:Name="hairColour" CheckedChanged="OnCheckHandler" Grid.Row="1" Grid.Column="2"/><Label Text="Hair Colour" Grid.Row="1" Grid.Column="3"/>

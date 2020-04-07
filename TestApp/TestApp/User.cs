@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.ComponentModel;
 using System.Net.Http;
+using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 
 namespace TestApp
 {
     public class User
     {
+
+
         // https://swapi.co/api/people/
         //public int id { get; set; }
         public string birth_year { get; set; }
@@ -28,13 +31,20 @@ namespace TestApp
         public string[] vehicles { get; set; }
     }
 
-    public class UserFetcher    {
+    public class UserFetcher :INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
         public List<User> userList = new List<User>();
-        static int[] _idArray = new int[] { 1, 2, 3, 4, 5};
         public bool isLoading = false;
         public bool isLoaded = false;
 
-        public async void GetUsers()
+        public async void GetUsers(int[] _idArray)
         {
             Console.WriteLine("GetUsers");
             var httpClient = new HttpClient();
@@ -48,15 +58,36 @@ namespace TestApp
                     userList.Add(user);
                     //Console.WriteLine(userList[userList.Count - 1].eye_color);
                 }
-
                 isLoaded = true;
                 isLoading = false;
+                NotifyPropertyChanged();
             }
-            catch
+            catch (Exception e)
             {
-                isLoaded = false;
+                userList.Add(new User
+                {
+                    birth_year = "1982",
+                    created = "1982",
+                    eye_color = "blue",
+                    edited = "1982",
+                    films = new string[] { "None" },
+                    gender = "Male",
+                    hair_color = "Blonde",
+                    height = "195",
+                    homeworld = "Earth",
+                    mass = "68kg",
+                    name = "Chris Tyner",
+                    skin_colour = "Pink",
+                    species = new string[] { "Human" },
+                    starships = new string[] { "Earth" },
+                    url = "https://github.com/tyner82",
+                    vehicles = new string[] { "Cobalt", "Tacoma" }
+                });
+                isLoaded = true;
+                NotifyPropertyChanged();
                 isLoading = false;
-                Console.WriteLine("error in http");
+                Console.WriteLine($"error in http: {e}");
+                Console.WriteLine($"Count of list: {userList.Count}");
             }
         }
     }
